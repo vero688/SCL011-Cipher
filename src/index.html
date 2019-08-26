@@ -2,14 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>¡Cifriends!</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
     </div>
+    <h1>¡Cifriends!</h1>
+        
+    <p>
+      Bienvenido a la pagina que te permitira invitar a tus amigos anonimamente </p>
+    
+    
+    <p> Aca podras invitar a tus amistades en secreto sin que nadie sepa de que estan hablando,
+         ahora si bien para poder mandarles mensajes a tus amigos debes ingresar 
+         unos datos para poder mandalos en privado.</p>
+     <h2> 
+    <input type="text"  id="codigoOffset"/> ingresar numero de cifrado</h2>  
+    
+    
+          <h3><textarea id="text"></textarea>
+          <button id="encriptar">encriptar</button></h3> 
+    
+          <h4><textarea id="textdes"></textarea>
+          <button id="desencriptar">desencriptar</button></h4>
+          
+    
+          
+      <h5>
+    <p> mandar mensaje privado</p>
+    <a href="https://web.whatsapp.com/"><button type="button" onclick="whatsapp()">whatsapp</button> </a> 
+    </h5>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    
+   
+    
   </body>
 </html>

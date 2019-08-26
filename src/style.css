@@ -1,1 +1,69 @@
-/* Acá va tu código */
+title{
+    font-family: arial;
+    list-style-position: outside;
+    color: coral;
+    shape-margin: 10px;
+    text-align: center;
+}
+
+body {
+   background: url("https://lamenteesmaravillosa.com/wp-content/uploads/2015/02/shutterstock_217192225.jpg")no-repeat;
+   background-size: cover;
+   text-align: left;
+   font-family:Arial;
+   font-style: italic;
+   color: chocolate;
+   
+
+}
+
+p {  
+    font-family: arial;
+    font-weight: bold;
+    border: 55cm;
+    font-size: 20pt;
+    text-align: center;
+    
+}
+
+h1 { 
+    text-align: center;
+    
+}
+
+h2{ 
+    background: url("https://www.stickpng.com/assets/images/5ae21cc526c97415d3213554.png");
+    color: saddlebrown;
+    text-align: center;
+    align-items: center;
+    margin: 3cm;
+
+    
+    
+}
+
+
+h3{ 
+  
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+h4{
+    text-align: center;
+    align-items: center;
+    
+}
+
+h5 { 
+   color: saddlebrown;
+text-align: center;
+}
+ 
+
+
+h6{ text-align: center;
+
+}
